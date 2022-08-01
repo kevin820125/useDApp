@@ -101,7 +101,7 @@
     </button>
   </header>
   <main class="main">
-    <section class="section section--hero">
+    <section id="main" class="section section--hero">
       <div class="container">
         <div class="hero">
           <svg class="hero__ethereum" viewBox="0 0 256 418" fill="none" color="currentColor" data-aos="zoom-in-down">
@@ -138,7 +138,7 @@
         </div>
       </div>
     </section>
-    <section class="section section--dependents">
+    <section id="dependents" class="section section--dependents">
       <div class="dependents">
         <div class="container">
           <div class="badge badge--large dependents__badge" data-aos="zoom-in-up"
@@ -371,7 +371,7 @@
           data-aos-delay="175" />
       </div>
     </section>
-    <section class="section section--integration">
+    <section id="integration" class="section section--integration">
       <div class="container">
         <div class="integration">
           <div class="integration__content">
@@ -694,7 +694,7 @@
             <a href="#resources" class="navigation__link footer__link">Resources</a>
           </li>
           <li class="navigation__item footer__item">
-            <a href="/" class="navigation__link footer__link">Documentation</a>
+            <a href="/" class="navigation__link navigation__link--external footer__link">Documentation</a>
           </li>
         </ul>
       </nav>
@@ -780,6 +780,8 @@
   <script src="/js/marquee3k.min.js"></script>
   <script src="/js/main.js"></script>
   <script src="/js/fetchGitHubRepoData.js"></script>
+  <script src="/js/sectionsRedirect.js"></script>
+  <script src="/js/sectionsObserver.js"></script>
 </body>
 
 </html>
