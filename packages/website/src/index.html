@@ -29,11 +29,11 @@
   <link rel="stylesheet" href="./css/main.css" />
 </head>
 
-<body>
+<body class="body">
   <header class="header">
     <div class="container">
       <div class="header__content">
-        <a href="/" class="header__logo">
+        <div class="header__logo">
           <svg class="header__logo-image" viewBox="0 0 32 32" fill="none" color="currentColor">
             <path d="M11.1943 3.92392L10.9275 22.861L3 25.8849V0L11.1943 3.92392Z" fill="currentColor" />
             <path d="M21.7746 9.21681L21.7746 17.7143L29.75 15.009L29.75 5.3833L21.7746 9.21681Z" fill="currentColor" />
@@ -42,7 +42,7 @@
               fill="currentColor" />
           </svg>
           <span class="header__logo-text">useDApp</span>
-        </a>
+        </div>
         <div class="header__menu">
           <nav class="navigation header__navigation">
             <ul class="navigation__list header__list">
@@ -94,13 +94,11 @@
             <a href="/" class="button button--large header__docs" data-button-text="Documentation">Documentation</a>
           </div>
         </div>
+        <button class="header__burger">
+          <div class="header__burger-lines"></div>
+        </button>
       </div>
     </div>
-    <button class="burger burger--arrowalt js-burger">
-      <div class="burger-box">
-        <div class="burger-inner"></div>
-      </div>
-    </button>
   </header>
   <main class="main">
     <section id="main" class="section section--hero">
